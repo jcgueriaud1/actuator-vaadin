@@ -1,7 +1,13 @@
 # Actuator Vaadin
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+This project is an example of a usage of Vaadin and Spring Health Actuator, secured with a basic auth.
+
+Go to the actuator page http://localhost:8080/actuator, a basic auth should be asked. It requires the role ADMIN.
+ Go to http://localhost:8080 you should be redirected to the login page.
+
+There are 2 users:
+- user // user
+- admin // admin
 
 ## Running the application
 
